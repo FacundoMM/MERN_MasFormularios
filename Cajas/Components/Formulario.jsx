@@ -38,14 +38,14 @@ const Formulario = ({ color, setcolor }) => {
                 {entradas.map((color, index) => (
                     <div
                         key={index}
-                        className="ms-2 mb-2" // Añadido mb-2 para espaciado entre divs
+                        className="ms-2 mb-2" 
                         style={{
                             backgroundColor: color,
                             width: "100px",
                             height: "70px",
                             borderRadius: "6px",
-                            marginRight: "10px", // Añadido margen derecho para separación
-                            marginBottom: "10px" // Añadido margen inferior para separación
+                            marginRight: "10px",
+                            marginBottom: "10px" 
                         }}
                     ></div>
                 ))}
